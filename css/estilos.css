@@ -1,0 +1,35 @@
+section{
+margin:0.5em;
+padding:0.2em;
+
+}
+
+h1 {
+color:black;
+font-size: 2.2em;
+}
+
+h2 {
+color:#0822CD;
+font-size: 1.8em;
+}
+
+body{
+text-align:center;
+font-family: Verdana, 'Times New Roman', Arial;
+font-size: 1.2em;
+color:#303030;
+background-color: #EAEBEE;
+
+}
+
+table{
+margin-left:auto;
+margin-right:auto;
+}
+
+ul {
+list-style:none;
+}
+
+
