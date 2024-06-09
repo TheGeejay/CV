@@ -20,12 +20,16 @@
 		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="laboral.html">Experiencia Laboral</a></li>
-				<li><a href="academica.html">Formacion Academica</a></li>
-				<li><a href="cursos.html">Formacion Adicional</a></li>
-				<li><a href="software.html">Herramientas de Software</a></li>
+				<li><a href="laboral.html">Laboral</a></li>
+				<li><a href="academica.html">Academica</a></li>
+				<li><a href="cursos.html">Cursos</a></li>
+				<li><a href="software.html">Software</a></li>
+				<!--
+				<li><a href="portfolio.html">Portfolio</a></li>
 				<li><a href="certificaciones.html">Certificaciones</a></li>
 				<li><a href="contacto.html">Contacto</a></li>
+				-->
+				
 			</ul>
 		</nav>
 	</header>
@@ -33,14 +37,36 @@
 	
 	
 	<form action="link" method="POST" target="_blank">
+	<fieldset>
+		<legend>Datos de Contacto</legend>
 		<label for"firstname">Nombre: </label>
 		<input size="30" type="text" name="firstname" id="firstname">
-<br>		
-		<label for"lastnmae">Apellido: </label>
-		<input size="30" type="text" name="firstname" id="firstname">
-<br>	
-		<textarea name="comentario" rows="20" cols="80">Escriba su consulta</textarea>
-<br>	
+	<br>	
+		<label for"lastname">Apellido: </label>
+		<input size="30" type="text" name="lastname" id="lastname">
+	<br>
+		<label for"email">E-Mail: </label>
+		<input size="32" type="email" name="email" id="email">
+	<br>	
+		<label for"telefono">Telefono: </label>
+		<input size="30" type="tel" name="telefono" id="telefono">
+	</fieldset>
+<p>
+		<h3> Razon de Contacto </h3>
+		<input type="checkbox" name="opcion" value=1> Ofertas de Cursos
+		<input type="checkbox" name="opcion" value=2> Propuestas Laborales
+		<input type="checkbox" name="opcion" value=3> Propuestas de Negocio
+</p>
+<p>	
+		<h3> Donde nos Conocimos </h3>
+		<input type="radio" name="opcion" value=1> Estudiamos juntos
+		<input type="radio" name="opcion" value=2> Trabajamos juntos
+		<input type="radio" name="opcion" value=3> No nos conocemos
+</p>
+
+		<textarea name="comentario" rows="12" cols="60">Escriba su mensaje</textarea>
+<br>
+		<input type="submit" value="Enviar datos">
 	<!--
 		<input type="reset" value="BORRAR">
 		<input type="submit" value="ENVIAR">
@@ -48,7 +74,7 @@
 	</form>
 
 <footer>
-<a href="https://linkedin.com/gabrielmjose">Contacto</a>
+<a href="https://www.linkedin.com/in/gabrielmjose/">Contacto</a>
 </footer>
 
 </body>
